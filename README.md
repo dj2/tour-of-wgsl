@@ -29,7 +29,11 @@ In 'Tour of WGSL' source directory
 
 2. Install Node dependencies `npm ci`
 
-3. Run Hugo webserver `npm run serve`
+3. Bundle mermaid.js `npm run build`
+
+You only need to do this once.
+
+4. Run Hugo webserver `npm run serve`
 
 This should start a webserver on `localhost:1313/tour-of-wgsl` that you
 can visit using a browser on your local machine.  Editing pages in the

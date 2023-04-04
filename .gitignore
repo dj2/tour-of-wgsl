@@ -4,3 +4,4 @@ docs
 resources
 jsconfig.json
 public
+assets/third_party/mermaid/dist
