@@ -1,9 +1,5 @@
 {{ if .Page.Store.Get "hasMermaid" }}
-  {{ range resources.Match "third_party/mermaid/dist/**" }}
-    {{ (.).Publish }}
-  {{end}}
   <script type="module">
-    import mermaid from '/tour-of-wgsl/third_party/mermaid/dist/main.mjs';
-    mermaid.initialize({ startOnLoad: true });
+    Mermaid.initialize({ startOnLoad: true });
   </script>
 {{ end }}
